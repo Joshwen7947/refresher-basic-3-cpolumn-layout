@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+// 400 ------font-family: 'Lexend Deca', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+// 700 ------font-family: 'Big Shoulders Display', cursive;
+$orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$darkCyan: hsl(179, 100%, 13%);
+$transparentWhite: hsla(0, 0%, 100%, 0.75);
+$lightGray: hsl(0, 0%, 95%);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $transparentWhite;
+	position: relative;
+}
+
+.main {
+	.sedans {
+		background-color: $orange;
+		width: 25%;
+		position: absolute;
+		top: 200px;
+		left: 150px;
+		height: 500px;
+		border-radius: 20px 0 0 20px;
+		img {
+			position: absolute;
+			top: 25px;
+			left: 25px;
+		}
+		h1 {
+			font-size: 2.5rem;
+			font-family: 'Big Shoulders Display', cursive;
+			position: absolute;
+			top: 80px;
+			left: 25px;
+			color: $transparentWhite;
+		}
+		p {
+			margin-top: 175px;
+			width: 80%;
+			text-align: left;
+			padding-left: 30px;
+			font-size: 1.25rem;
+			line-height: 1.75;
+			font-family: 'Lexend Deca', sans-serif;
+			color: $transparentWhite;
+		}
+		button {
+			border-radius: 30px;
+			border: none;
+			font-size: 2rem;
+			padding: 15px;
+			margin-top: 60px;
+			color: $orange;
+		}
+		button:hover {
+			cursor: pointer;
+			background-color: $orange;
+			color: $transparentWhite;
+		}
+	}
+	.suv {
+		background-color: $cyan;
+		width: 25%;
+		position: absolute;
+		top: 200px;
+		left: 512px;
+		height: 500px;
+		img {
+			position: absolute;
+			top: 25px;
+			left: 25px;
+		}
+		h1 {
+			font-size: 2.5rem;
+			font-family: 'Big Shoulders Display', cursive;
+			position: absolute;
+			top: 80px;
+			left: 25px;
+			color: $transparentWhite;
+		}
+		p {
+			margin-top: 175px;
+			width: 80%;
+			text-align: left;
+			padding-left: 30px;
+			font-size: 1.25rem;
+			line-height: 1.75;
+			font-family: 'Lexend Deca', sans-serif;
+			color: $transparentWhite;
+		}
+		button {
+			border-radius: 30px;
+			border: none;
+			font-size: 2rem;
+			padding: 15px;
+			margin-top: 60px;
+			margin-left: 25px;
+			color: $cyan;
+		}
+		button:hover {
+			cursor: pointer;
+			background-color: $cyan;
+			color: white;
+		}
+	}
+	.luxury {
+		background-color: $darkCyan;
+		width: 25%;
+		position: absolute;
+		top: 200px;
+		left: 873px;
+		height: 500px;
+		border-radius: 0 10px 10px 0;
+		img {
+			position: absolute;
+			top: 25px;
+			left: 25px;
+		}
+		h1 {
+			font-size: 2.5rem;
+			font-family: 'Big Shoulders Display', cursive;
+			position: absolute;
+			top: 80px;
+			left: 25px;
+			color: $transparentWhite;
+		}
+		p {
+			margin-top: 175px;
+			width: 80%;
+			text-align: left;
+			padding-left: 30px;
+			font-size: 1.25rem;
+			line-height: 1.75;
+			font-family: 'Lexend Deca', sans-serif;
+			color: $transparentWhite;
+		}
+		button {
+			border-radius: 30px;
+			border: none;
+			font-size: 2rem;
+			padding: 15px;
+			margin-top: 25px;
+			margin-left: 25px;
+			color: $darkCyan;
+		}
+		button:hover {
+			cursor: pointer;
+			background-color: $darkCyan;
+			color: white;
+		}
+	}
+}
